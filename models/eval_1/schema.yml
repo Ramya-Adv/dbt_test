@@ -1,0 +1,23 @@
+
+version: 2
+
+sources:
+  - name: eval_king_data
+    database: POC_RAW_EVAL
+    schema: EVAL_INT_RAW_RETURN_OF_THE_KING_VML_OPUS12171
+    tables:
+      - name: academic_unit
+      - name: investigator
+      - name: contact
+      - name: organization
+      - name: investigator_pubmed
+      - name: gender
+      - name: ethnicity
+
+models:
+    - name: sv_academic_unit_display
+      description: "Academic Unit Display"
+
+    - name: rv_investigator
+      description: "Investigator"
+
